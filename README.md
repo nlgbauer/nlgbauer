@@ -6,6 +6,7 @@ Now I build with AI. Everything here is vibecoded, designed and shipped with Cla
 
 ## 🔨 What I'm building
 
+-- **[adtech-agent](https://github.com/nlgbauer/adtech-agent)**: an agent that scans adtech trade sources across the industry, tracking market themes, major product launches, M&A, executive moves, and regulatory shifts, then routes everything through the Claude API to synthesize the noise into a concrete, 5-minute executive brief with a "what it means" read on each item. It runs itself every Monday via GitHub Actions and emails the brief to my inbox. The fetching is deterministic code; the model does only the judgment.
 - **[nathanlgbauer.com](https://www.nathanlgbauer.com)**: my site, built with Claude Code, deployed on Vercel
 - More shipping soon, one small project every week or two
 
