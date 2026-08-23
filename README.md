@@ -2,10 +2,11 @@
 
 Product and partnerships leader in San Francisco. 15 years across product, strategy, finance, and ops on three continents: Gallup analytics, Rakuten strategy (including time in Japan), and building Walmart's retail media platform from inception to $100M+ scale.
 
-Now I build with AI. Everything here is vibecoded, designed and shipped with Claude Code.
+Now I build with AI. Everything here is built, designed and shipped with Claude Code.
 
 ## 🔨 What I'm building
 
+- **[api-integration-kit](https://github.com/nlgbauer/api-integration-kit)**: point it at any API's spec, describe what you want in plain English, and it drafts the request, checks every parameter against the spec before sending, and corrects what the model invented. Built because when an AI hallucinates a parameter, most APIs silently ignore it and return 200, so the mistake never surfaces. Includes a browser UI and a small eval harness for measuring where it breaks.
 - **[adtech-agent](https://github.com/nlgbauer/adtech-agent)**: an AI agent that scans the adtech industry and emails me a synthesized 5-minute executive brief every Monday. Deterministic code pulls the trade sources; the Claude API clusters the week into themes, launches, M&A, exec moves, and regulatory shifts, then writes a "what it means" read on each. Runs itself on GitHub Actions.
 - **[nathanlgbauer.com](https://nathanlgbauer.com)**: my personal site, built with Claude Code and deployed on Vercel. A living portfolio of what I ship, updated as each new project goes live.
 - More shipping soon, one small project every week or two.
