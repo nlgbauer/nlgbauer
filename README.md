@@ -6,7 +6,7 @@ Now I build with AI. Everything here is built, designed and shipped with Claude 
 
 ## 🔨 What I'm building
 
-- **[fantasy-football-agent](https://github.com/nlgbauer/fantasy-football-agent)**: a fantasy-league agent that pulls ESPN scores, rosters, projections, and history; drafts weekly HTML/PDF recaps; and automatically sends league emails to members. It autonomously manages my team: optimizing eligible starter/bench assignments, and selects players with the highest point totals. Agent analyzes best Free-agents on the market, and proposes weekly free-agent pickups and proposes trade offers to make with other league members. The public repo runs on synthetic data to avoid disclosing actual league members.
+- **[fantasy-football-agent](https://github.com/nlgbauer/fantasy-football-agent)**: an AI general manager for my fantasy league. Each week it pulls ESPN scores, rosters, and projections, then sets my optimal lineup on its own. It scouts the waiver wire and drafts trade offers to other managers, but those go to me for approval before anything is sent. It also writes a weekly recap for the whole league and emails it out. The public repo runs on synthetic data, so my league mates stay anonymous.
   
 - [adtech-diagnostic-agent](https://github.com/nlgbauer/adtech-diagnostic-agent): an agent that tells a publisher why a programmatic deal is underdelivering. It walks the deal through an 8-stage delivery funnel, pins the likely cause from an 11-cause taxonomy, and when the fix is in the publisher's control, prepares the action for approval and verifies the result. Deterministic engine on synthetic data, so it never fails live. [Try the demo](https://adtech-diagnostic-agent.vercel.app/)
   
