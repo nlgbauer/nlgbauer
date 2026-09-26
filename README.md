@@ -15,7 +15,7 @@ Now I build with AI. Everything here is built, designed and shipped with Claude 
 - **[adtech-agent](https://github.com/nlgbauer/adtech-agent)**: an AI agent that scans the adtech industry and emails me a synthesized 5-minute executive brief every Monday. Deterministic code pulls the trade sources; the Claude API clusters the week into themes, launches, M&A, exec moves, and regulatory shifts, then writes a "what it means" read on each. Runs itself on GitHub Actions.
   
 - **[nathanlgbauer.com](https://nathanlgbauer.com)**: my personal site, built with Claude Code and deployed on Vercel. A living portfolio of what I ship, updated as each new project goes live.
-- 
+  
 - More shipping soon, one small project every week or two.
 
 ## 🧭 How I work
